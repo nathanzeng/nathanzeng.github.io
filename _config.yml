@@ -1,0 +1,25 @@
+# Site settings
+title: "Writer's block"
+header-img: img/home-bg.jpg
+email: nate.zeng@me.com
+copyright_name: Nathan Zeng
+description: "Write your site description here. It will be used as your sites meta description as well!"
+baseurl: ""
+url: "http://yourdomain.com"
+twitter_username: Nate_Zeng
+github_username: nathanzeng
+facebook_username: "#"
+email_username:  nate.zeng@me.com
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
