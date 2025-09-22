@@ -1,3 +1,124 @@
-<div>
-    Hello world in index html
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    header p {
+      margin: 5px 0 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 0 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    section {
+      margin-bottom: 30px;
+      padding: 20px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    .job-title {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #eee;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Jane Doe</h1>
+    <p>Web Developer · React Enthusiast · Open Source Contributor</p>
+  </header>
+
+  <div class="container">
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: jane.doe@example.com</p>
+      <p>GitHub: <a href="https://github.com/janedoe">github.com/janedoe</a></p>
+      <p>Location: San Francisco, CA</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>JavaScript, HTML, CSS</li>
+        <li>React, Redux, Node.js</li>
+        <li>Git, GitHub, Webpack</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <div>
+        <div class="job-title">Frontend Developer at TechCorp (2022–Present)</div>
+        <ul>
+          <li>Built responsive React interfaces for a B2B SaaS platform</li>
+          <li>Worked with design and backend teams to deliver features</li>
+        </ul>
+
+        <div class="job-title">Intern at WebStudio (2021)</div>
+        <ul>
+          <li>Assisted in building e-commerce websites</li>
+          <li>Learned agile workflow and version control</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p><strong>BS in Computer Science</strong> – University of Somewhere (2018–2022)</p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Jane Doe · Made with ❤️ and HTML
+  </footer>
+
+</body>
+</html>
