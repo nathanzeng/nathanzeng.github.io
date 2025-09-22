@@ -1,3 +1,2 @@
 # nathanzeng.github.io
-Hello world Nathan
-commit 2
+TODO: build this out to have some more styling and perhaps more than just your resume
