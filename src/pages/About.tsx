@@ -2,8 +2,8 @@ import React from 'react'
 
 const About: React.FC = () => {
   return (
-    <div>
-        todo: About
+    <div className='flex'>
+        i enjoy playing badminton in my free time
     </div>
   )
 }
