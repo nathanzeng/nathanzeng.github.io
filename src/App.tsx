@@ -10,7 +10,7 @@ const App: React.FC = () => {
   return (
     <>
       <Navbar />
-      <div style={{ padding: '2rem' }}>
+      <div className='mt-12'>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />

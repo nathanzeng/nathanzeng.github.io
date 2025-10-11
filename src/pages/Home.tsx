@@ -5,7 +5,7 @@ const Home: React.FC = () => {
   return (
     <div className='space-y-4'>
       <div className='flex'>
-        software engineer at RedpointHQ
+        software engineer @ RedpointHQ
       </div>
 
       <div className='flex mt-4'>
