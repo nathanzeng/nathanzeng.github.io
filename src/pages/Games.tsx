@@ -1,8 +1,8 @@
 import React from "react";
-import Square from "../components/tic-tac-toe/Square";
+import TicTacToe from "../components/tic-tac-toe/TicTacToe";
 
 const Games: React.FC = () => {
-  return <Square />;
+  return <TicTacToe />;
 };
 
 export default Games;
