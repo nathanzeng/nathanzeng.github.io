@@ -1,14 +1,12 @@
-import React from 'react'
-import Emoji from '../assets/guy_behind_laptop_emoji.png'
+import React from "react";
+import Emoji from "../assets/guy_behind_laptop_emoji.png";
 
 const Home: React.FC = () => {
   return (
-    <div className='space-y-4'>
-      <div className='flex'>
-        software engineer @ RedpointHQ
-      </div>
+    <div className="space-y-4">
+      <div className="flex">software engineer @ RedpointHQ</div>
 
-      <div className='flex mt-4'>
+      <div className="flex mt-4">
         <a
           href="https://www.redpointhq.com/"
           target="_blank"
@@ -19,13 +17,11 @@ const Home: React.FC = () => {
         </a>
       </div>
 
-      <div className='flex justify-center'>
+      <div className="flex justify-center">
         <img src={Emoji} alt="Guy behind laptop" className="w-100 h-auto" />
       </div>
-
-
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

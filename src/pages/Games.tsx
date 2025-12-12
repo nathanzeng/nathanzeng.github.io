@@ -1,10 +1,8 @@
-import React from 'react'
-import Square from '../components/tic-tac-toe/Square'
+import React from "react";
+import Square from "../components/tic-tac-toe/Square";
 
 const Games: React.FC = () => {
-  return (
-    <Square />
-  )
-}
+  return <Square />;
+};
 
-export default Games
+export default Games;

@@ -1,8 +1,7 @@
 To deploy:  
 npm run build  
-npm run deploy  
-
+npm run deploy
 
 To start Vite development server:  
 npm run dev  
-http://localhost:8888/  
+http://localhost:8888/
