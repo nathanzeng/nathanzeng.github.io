@@ -1,5 +1,5 @@
-import React from "react";
-import Emoji from "../assets/guy_behind_laptop_emoji.png";
+import React from 'react';
+import Emoji from '../assets/guy_behind_laptop_emoji.png';
 
 const Home: React.FC = () => {
   return (

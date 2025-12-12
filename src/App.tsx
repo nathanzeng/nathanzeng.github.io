@@ -1,9 +1,9 @@
-import React from "react";
-import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import "./App.css";
-import Home from "./pages/Home";
-import Games from "./pages/Games";
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import './App.css';
+import Home from './pages/Home';
+import Games from './pages/Games';
 
 const App: React.FC = () => {
   return (
