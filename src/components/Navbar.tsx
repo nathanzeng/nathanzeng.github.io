@@ -15,11 +15,9 @@ const Navbar: React.FC = () => {
       <Link to="/"><img src={RiceBowl} alt="home button" className="w-10 h-auto" /></Link>
       <nav className='flex gap-5 p-4 justify-center flex-1'>
         <Link to="/" className={isActive('/')}>Home</Link>
-        {/* <Link to="/projects" className={isActive('/projects')}>Projects</Link> */}
-        <Link to="/about" className={isActive('/about')}>About</Link>
+        <Link to="/games" className={isActive('/games')}>Games</Link>
       </nav>
     </div>
-    
   )
 }
 

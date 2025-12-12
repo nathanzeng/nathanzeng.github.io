@@ -3,8 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import './App.css'
 import Home from './pages/Home'
-import Projects from './pages/Projects'
-import About from './pages/About'
+import Games from './pages/Games'
 
 const App: React.FC = () => {
   return (
@@ -13,8 +12,7 @@ const App: React.FC = () => {
       <div className='mt-12'>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/games" element={<Games />} />
         </Routes>
       </div>
     </>
