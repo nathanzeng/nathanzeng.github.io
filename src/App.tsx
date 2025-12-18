@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import './App.css';
 import Home from './pages/Home';
 import Games from './pages/Games';
+import CompoundInterestCalculator from './pages/CompoundInterestCalculator.tsx';
 
 const App: React.FC = () => {
   return (
@@ -13,6 +14,10 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/games" element={<Games />} />
+          <Route
+            path="/compoundInterestCalculator"
+            element={<CompoundInterestCalculator />}
+          />
         </Routes>
       </div>
     </>

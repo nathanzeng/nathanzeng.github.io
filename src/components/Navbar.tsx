@@ -22,6 +22,9 @@ const Navbar: React.FC = () => {
         <Link to="/games" className={isActive('/games')}>
           Games
         </Link>
+        <Link to="/compoundInterestCalculator" className={isActive('/compoundInterestCalculator')}>
+          Calculator
+        </Link>
       </nav>
     </div>
   );
