@@ -30,7 +30,6 @@ export default function CompoundInterestCalculator() {
   // TODO: not sure if I like the centering
   // TODO: want a conditional for if finalTotal is empty
   // Make this pretty, maybe use the float labels
-  // Got some editor errors to see if we can fix
   return (
     <div className="space-y-8">
       <div>
