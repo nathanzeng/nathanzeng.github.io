@@ -1,5 +1,8 @@
 import { useState } from 'react';
-import { InputNumber } from 'primereact/inputnumber';
+import {
+  InputNumber,
+  type InputNumberValueChangeEvent,
+} from 'primereact/inputnumber';
 import { Button } from 'primereact/button';
 
 export default function CompoundInterestCalculator() {
@@ -40,7 +43,9 @@ export default function CompoundInterestCalculator() {
           locale="en-US"
           inputId="principalInput"
           value={principal}
-          onValueChange={(e) => setPrincipal(e.value)}
+          onValueChange={(e: InputNumberValueChangeEvent) =>
+            setPrincipal(e.value ?? 0)
+          }
         />
       </div>
 
@@ -54,7 +59,9 @@ export default function CompoundInterestCalculator() {
           locale="en-US"
           inputId="monthlyContibution"
           value={monthlyContribution}
-          onValueChange={(e) => setMonthlyContribution(e.value)}
+          onValueChange={(e: InputNumberValueChangeEvent) =>
+            setMonthlyContribution(e.value ?? 0)
+          }
         />
       </div>
 
@@ -65,7 +72,9 @@ export default function CompoundInterestCalculator() {
         <InputNumber
           inputId="interestInput"
           value={interestRate}
-          onValueChange={(e) => setInterestRate(e.value)}
+          onValueChange={(e: InputNumberValueChangeEvent) =>
+            setInterestRate(e.value ?? 0)
+          }
         />
       </div>
 
@@ -76,7 +85,9 @@ export default function CompoundInterestCalculator() {
         <InputNumber
           inputId="numberOfYearsInput"
           value={years}
-          onValueChange={(e) => setYears(e.value)}
+          onValueChange={(e: InputNumberValueChangeEvent) =>
+            setYears(e.value ?? 0)
+          }
         />
       </div>
 
