@@ -74,7 +74,9 @@ function MobileNavbar() {
       {/* TODO: I want this to not be blue */}
       {/* TODO: Alignment looks jank */}
       <Button rounded text icon="pi pi-bars" onClick={() => setVisible(true)} />
-      <img src={RiceBowl} alt="home button" className="w-10 h-10" />
+      <Link to="/">
+        <img src={RiceBowl} alt="home button" className="w-10 h-10" />
+      </Link>
     </div>
   );
 }
