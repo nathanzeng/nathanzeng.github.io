@@ -1,4 +1,4 @@
-It's not mobile friendly.
+The mobile navbar styling doesn't look good.
 
 Get more clarity on what npm run build and deploy do
 Currently, npm run build fails on linter problems like unused params... seems unmaintainable
